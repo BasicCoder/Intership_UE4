@@ -134,5 +134,9 @@ MyIntegerSpinBox.cpp 文件：
 	 
 	}
 
+**注意**: 需要在 `ProjectName.Build.cs` 添加 Module 依赖项（通过手动添加或者是去除注释）如下图所示：
+
+
+另一种解决方案就是复制源码，将数据存储类型换成 int 类型即可。
 ## Widget Text Box Limit Input Interger 
 **2.** 利用 `Text Box` 用户输入的随意性更大，需要更多限制，经过尝试，Text Box很好的解决了限定用户输入为整数问题。
