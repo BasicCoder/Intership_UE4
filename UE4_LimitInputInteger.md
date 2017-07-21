@@ -140,7 +140,9 @@ MyIntegerSpinBox.cpp 文件：
 另一种解决方案就是复制源码，将数据存储类型换成 int 类型即可。
 ## 二. Widget Text Box Limit Input Integer 
 利用 `Text Box` 用户输入的随意性更大，需要更多限制，经过尝试，Text Box很好的解决了限定用户输入为整数问题。
-<center>![](http://img.blog.csdn.net/20170721152601087?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvQmFzaWNDb2Rlcg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)图二：TextBox在用户动态输入文本时限定输入为整数</center>
-<center>![这里写图片描述](http://img.blog.csdn.net/20170721152747982?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvQmFzaWNDb2Rlcg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)图三：Set Display Amount 函数</center>
+<center>![](http://img.blog.csdn.net/20170721152601087?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvQmFzaWNDb2Rlcg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+图二：TextBox在用户动态输入文本时限定输入为整数</center>
+<center>![](http://img.blog.csdn.net/20170721152747982?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvQmFzaWNDb2Rlcg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+图三：Set Display Amount 函数</center>
 <center>[Reference]</center>
 1.[https://github.com/BasicCoder/Intership_UE4](https://github.com/BasicCoder/Intership_UE4)
