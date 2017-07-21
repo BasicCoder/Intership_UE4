@@ -4,10 +4,10 @@
 ## Widget Spin Box Limit Input Interger 
 **1.** 利用 `spin box` 可以很好的限定用户输入的为数字，但是 UE4 自带的 `spin box` 默认的 Value 为 **float** :  
 
-> 	public:
-> 	     /** Value stored in this spin box */
-> 	     UPROPERTY(EditAnywhere, Category=Content)
-> 	     float Value;
+ 	public:
+ 	     /** Value stored in this spin box */
+ 	     UPROPERTY(EditAnywhere, Category=Content)
+ 	     float Value;
 
 虽然可以很容易通过 `truncate` 或者 `round` 解决限定用户输入为整形，但是默认显示为浮点类型，但是可以通过继承 `spin box` 来生成自己的 `int spin box` 来解决这个问题。  
 
