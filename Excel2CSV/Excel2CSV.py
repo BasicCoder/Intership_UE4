@@ -28,7 +28,7 @@ def Excel2CSV(ExcelFile, CsvDir):
                     strValue = (str(cell))
                 
                 isInt = bool(re.match("^([0-9]+)\.0$", strValue))
-
+                strValue = strValue.encode('utf-8')
                 if isInt:
                     strValue = int(float(strValue))
                 else:
