@@ -23,12 +23,12 @@ def Excel2CSV(ExcelFile, CsvDir):
             processed_row = []  #save processed Data
             for cell in row:
                 if isinstance(cell, str):
-                    strValue = cell             #convert cell to string
+                    strValue = cell            #convert cell to string
                 else:
                     strValue = (str(cell))
-                
+
                 isInt = bool(re.match("^([0-9]+)\.0$", strValue))
-                strValue = strValue.encode('utf-8')
+              
                 if isInt:
                     strValue = int(float(strValue))
                 else:
@@ -39,6 +39,8 @@ def Excel2CSV(ExcelFile, CsvDir):
                         strValue = float(strValue)
                     if isLong:
                         strValue = int(float(strValue))
+                
+
                 processed_row.append(strValue)
             #row = [int(cell.value) if isinstance(cell.value, int) else cell.value for cell in worksheet.row_values(rownum)]
             wr.writerow(processed_row)
