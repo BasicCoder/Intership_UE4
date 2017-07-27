@@ -4,6 +4,7 @@
 import csv
 import os 
 import re
+import codecs 
 
 def Excel2CSV(ExcelFile, CsvDir):
     workbook = xlrd.open_workbook(ExcelFile)
@@ -11,7 +12,7 @@ def Excel2CSV(ExcelFile, CsvDir):
 
     for worksheet_name in worksheets:
         worksheet = workbook.sheet_by_name(worksheet_name)
-        csv_file = open(''.join([CsvDir, worksheet_name, '.csv']), 'w', newline='')
+        csv_file = open(''.join([CsvDir, worksheet_name, '.csv']), 'w', newline='', encoding = 'utf-8')
         wr = csv.writer(csv_file, quoting = csv.QUOTE_MINIMAL, escapechar='"')
 
         print("Save " + worksheet_name + "...")
