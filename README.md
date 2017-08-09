@@ -7,7 +7,7 @@
   > - BlogAddress(Link:[Here](http://blog.csdn.net/basiccoder/article/details/75570979))
 ## UMG Limit Input Integer
   > - BlogAddress(Link:[Here](http://blog.csdn.net/BasicCoder/article/details/75647273))
-## Import Item Icon
+## Import Need Resource
   > - Import Item Icon According to Item Key
 
 ![](https://raw.githubusercontent.com/BasicCoder/Intership_UE4/master/8913281_p0.jpg)
