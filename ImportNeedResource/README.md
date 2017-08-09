@@ -8,6 +8,6 @@
 > ---
 > - DstCsvFileName : Destination file name.
 > - FillFieldName : Need to fill field name.
-> - ResourceDir : Need resource direction.
+> - ResourceDir : Need resource directory.
 ## Output
 > - Result will appear in CSV_Data Folder,  **Destination file name = Source file name + WithIcon**
