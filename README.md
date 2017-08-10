@@ -8,6 +8,6 @@
 ## UMG Limit Input Integer
   > - BlogAddress ( Link:[Here](http://blog.csdn.net/BasicCoder/article/details/75647273) )
 ## Import Need Resource
-  > - Import Item Icon According to Item Key ( Can also be used to Import Need Resource According to Key )
+  > - Import Item Icon According to Item Key ( Can be also used to Import Need Resource According to Key )
 
 ![](https://raw.githubusercontent.com/BasicCoder/Intership_UE4/master/8913281_p0.jpg)
