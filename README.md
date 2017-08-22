@@ -10,4 +10,5 @@
 ## Import Need Resource
   > - Import Item Icon According to Item Key ( Can be also used to Import Need Resource According to Key )
 
+这份实习得来实在是不容易，从五一开始投递简历，到六月中旬拿到offer，前后耗时一个月，共计投递100多家，面试50多家，最多一周面试14场，最多一天面试三场。见到大大小小的公司，各种各样的面试官。这份实习也算是为了填补大学期间缺少一个实习经历吧，一分钱都没赚到，三个月大概赔了4K。这份实习大概只能说增添一个实习经历吧，从C++到Java，到Android，再到C#，再到Python，这次只能再增添一个UE4,只能给人以东一棒槌西一榔头，多而不精，后面几年也可能不会再接触到游戏行业了。希望后面能有自己精通的一方面。
 ![](https://raw.githubusercontent.com/BasicCoder/Intership_UE4/master/8913281_p0.jpg)

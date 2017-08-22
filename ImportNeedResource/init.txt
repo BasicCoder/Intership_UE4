@@ -1,0 +1,2 @@
+SourceFileName:Item
+Icon:/Game/UI/Kitbag/icon/
