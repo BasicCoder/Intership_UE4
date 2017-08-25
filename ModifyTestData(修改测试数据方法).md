@@ -1,9 +1,9 @@
 ##一、打开内容浏览器，找到以下目录
 ![](https://raw.githubusercontent.com/BasicCoder/Intership_UE4/master/ModifyTestData1.png)
-<center>图一：组件目录</center>
+<center>图一：组件目录</center></br>
 ##二、找到并打开 `PlayerKitbagComponent`
 ![](https://raw.githubusercontent.com/BasicCoder/Intership_UE4/master/ModifyTestData2.png)
-<center>图二：组件</center>
+<center>图二：组件</center></br>
 ##三、找到 `Function` 里面 `Test` 分类，双击 `TestAddItem` 即可打开该函数
 ![](https://raw.githubusercontent.com/BasicCoder/Intership_UE4/master/ModifyTestData3.png)
 <center>图三：组件里面 `TestAddItem`</center>
